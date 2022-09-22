@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    background-color: bisque;
+    height: 100px;
+}
+
+.navBar li{
+   list-style: none;
+
+}
+.navBar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(10, 0, 0);
+}
+
+.bg-propio{
+    background-color: lightblue;
+}
