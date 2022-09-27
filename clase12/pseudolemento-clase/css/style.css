@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hover p{
+    color: red;
+    font-size: 40px;
+}
+.hover p:hover{
+    color: blue;
+    font-size: 39px;
+}
+
+.hover p:nth-child(4){
+    color: green;
+    font-size: 50px;
+}
+.hover p:nth-child(2){
+    color: blueviolet;
+    font-size: 20px;
+}
+.hover p:last-child{
+    color: yellow;
+}
+
+.pseudo{
+    margin-top: 30px;
+}
+
+.pseudo p::after{
+    content: " ➥";
+    color: blue;
+}
+
+.pseudo p::before{
+    content: "➥ ";
+    color: red;
+    font-size: 50px;
+}
+
+.habia::first-letter{
+    color: black;
+    font-size: 40px;
+}
+
+.linea::first-line{
+    color: red;
+}
+
+
