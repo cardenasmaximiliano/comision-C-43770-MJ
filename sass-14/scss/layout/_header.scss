@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    background-color: $background-principal;
+    h1{
+        color: white;
+        font-family: $fuentes-principal;
+        /*acepta operacion */
+        font-size: (24px)*2;
+    }
+    nav{
+        background-color: rgba(240, 128, 128, 0.18);
+        width: 100%;
+    }
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: $fuente-secundaria;
+    li{
+        list-style: none;
+        font-size: 25px;
+        a{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color:beige
+            }
+        }
+    }
+}
+
+

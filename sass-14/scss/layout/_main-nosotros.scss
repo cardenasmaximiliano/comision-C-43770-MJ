@@ -1,0 +1,16 @@
+.nosotros{
+    display: flex;
+    justify-content: center;
+}
+.colores{
+    background-color: $background-principal;
+}
+.nosotros-2{
+    @extend .nosotros;
+    @extend .colores;
+    font-size: 20px;
+}
+
+.grid{
+    @include grid-content (repeat(3,1fr), repeat(2,1fr), center, center)
+}

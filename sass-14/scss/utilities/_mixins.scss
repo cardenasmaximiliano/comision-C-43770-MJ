@@ -1,0 +1,23 @@
+@mixin propiedades-flex($direction,$justify, $align){
+    
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+
+}
+
+@mixin grid-content ($colums, $row, $justify, $align){
+    display: grid;
+    grid-template-columns: $colums;
+    grid-template-rows: $row;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}

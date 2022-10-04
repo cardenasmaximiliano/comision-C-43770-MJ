@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  background-color: #d5ade6; }
+  header h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    /*acepta operacion */
+    font-size: 48px; }
+  header nav {
+    background-color: rgba(240, 128, 128, 0.18);
+    width: 100%; }
+
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif; }
+  .navBar li {
+    list-style: none;
+    font-size: 25px; }
+    .navBar li a {
+      text-decoration: none;
+      color: black; }
+      .navBar li a:hover {
+        color: beige; }
+
+.nosotros, .nosotros-2 {
+  display: flex;
+  justify-content: center; }
+
+.colores, .nosotros-2 {
+  background-color: #d5ade6; }
+
+.nosotros-2 {
+  font-size: 20px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center; }
+
+.section-1 {
+  display: grid;
+  grid-template-columns: repeat(2, fr); }
+
+.prueba-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.prueba-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap; }
+
+footer {
+  background-color: #d5ade6; }

@@ -1,0 +1,13 @@
+.section-1{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+}
+
+.prueba-1{
+    @include propiedades-flex (row, center, center)
+}
+
+.prueba-2{
+    @include propiedades-flex (column, flex-end, center);
+    flex-wrap: wrap;
+}
